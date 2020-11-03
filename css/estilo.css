@@ -1,0 +1,103 @@
+/* Estilos del cuerpo de la página */
+body {
+		font-size: 17px;
+		font-family: "segoe-ui", "open-sans", tahoma, arial;
+		width: 100%;
+		margin:20px auto 0;
+	}
+
+	/*Clase de h2*/
+	h2, h5{
+		margin: 25px auto 0;
+		text-align: center;
+	}
+	/* Clase de los titulos */
+	.word {
+		color: #4C0231;
+		text-align: center;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+
+	/* Clase del input */
+	.input_class{	
+		width: 100%;		
+		text-align: center;
+		font-size: 15px;
+		color: black;
+		padding-left: 12px;
+	}
+
+	/* Clase del submit */
+	.btn_search{
+		text-align: center;
+		font-size: 18px;
+		letter-spacing: 2px;
+		padding: 5px;
+		color: #4C0231;
+		border: 1px;
+		float: center;
+		background-color: #e9dfe5; 
+	}	
+
+	/*Estilos del boton volver*/
+	.enlaceboton {
+		font-size: 15px;
+		padding: 4px;
+		background-color: #e9dfe5;
+	}
+
+	.enlaceboton:link,
+	.enlaceboton:visited {
+		color: #4C0231;
+	}
+
+	/* Estilos de la tabla 
+	table {
+		display: flex;
+		margin: auto;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+		font-size: 12px;
+	}
+
+
+	table td {
+		transition: all .5s;
+	}
+		
+		/* Clases de la Tabla 
+		.tabla_datos {
+			border-collapse: collapse;
+			font-size: 14px;
+			min-width: 537px;
+		}
+
+		.tabla_datos th, 
+		.tabla_datos td {
+			border: 1px solid #4C0231;
+			padding: 7px 17px;
+		}
+		/*.tabla_datos caption {
+			margin: 7px;
+		}
+
+		/* Tabla Header 
+		#titulo {
+			background-color: #4C0231;
+			color: #FFFFFF;
+			border-color: #4C0231 !important;
+			text-transform: uppercase;
+		}
+
+		/* Tabla Body 
+		.tabla_datos tbody td {
+			color: black;
+			text-align: center;
+			background-color: #FFFFFF;
+		}
+
+	/* Estilos de div 
+	div {
+		border-color: black;
+		border: 1px solid;
+	}
